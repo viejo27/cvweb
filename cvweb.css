@@ -66,14 +66,16 @@ body{
   display:grid;
   grid-template-columns:repeat(2,1fr);
   color: #2670B3;
+  padding-left: 27px;
+  padding-right: 27px;
 }
 .tiempo{
   text-align: right;
 }
 .trabajo > p{
   color: #000000;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 27px;
+  padding-right: 27px;
   text-align: justify;
 }
 .izquierda{
