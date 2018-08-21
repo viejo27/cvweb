@@ -1,0 +1,96 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-size:100%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+.image1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:27px 5px 5px 5px;
+}
+#image{
+  max-width: 75%;
+  border-radius: 50%;
+}
+.skills-fr{
+  text-align: center;
+  color: #ffffff;
+}
+.skills-sr{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.skills-sr > div{
+  background-color: #ff5e00;
+  text-align: center;
+  line-height: 23px;
+  padding: 3px 7px 3px 7px;
+  margin: 3px;
+}
+.first-row{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 5px 27px 5px 27px;
+  color: #ff5e00;
+}
+.second-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.email,.telephone,.direction{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: red;
+}
+.email2,.telephone2,.direction2{
+  width: 100px;
+  text-align: center;
+  color: #2670B3;
+}
+.empresa-tiempo{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  color: #2670B3;
+}
+.tiempo{
+  text-align: right;
+}
+.trabajo > p{
+  color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+.izquierda{
+  background-color: #2670B3;
+  color: white;
+}
+.derecha{
+  background-color: #ffffff;
+}
+.skills{
+  background-color: #2670B3;
+}
+.xperience{
+  background-color: #eeeeee;
+}
+ @media only screen and (max-width:600px){
+  .container{
+    grid-template-columns: 1fr;
+  }
+}
