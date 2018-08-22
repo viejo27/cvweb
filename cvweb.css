@@ -2,40 +2,47 @@ body{
   margin: 0px;
   padding: 0px;
   width: 100%;
-  font-size:100%;
+  font-size: 1.2rem;
   font-family:Arial, Helvetica, sans-serif;
 }
 .container{
   display: grid;
   grid-template-columns: 2fr 5fr;
+  height: 100vh;
 }
-.image1{
+.image1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding:27px 5px 5px 5px;
+  padding: 27px 5px 5px 5px;
 }
-#image{
-  max-width: 75%;
+.image1 > p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 1rem;
+}
+#image {
+  max-width: 65%;
   border-radius: 50%;
 }
-.skills-fr{
+.skills-fr {
   text-align: center;
   color: #ffffff;
 }
-.skills-sr{
-  padding: 20px;
+.skills-sr {
+  padding: 2em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
 }
-.skills-sr > div{
+.skills-sr > div {
   background-color: #ff5e00;
   text-align: center;
   line-height: 23px;
-  padding: 3px 7px 3px 7px;
-  margin: 3px;
+  padding: .5em 1em;
+  margin: .5em;
 }
 .first-row{
   display: grid;
@@ -55,7 +62,13 @@ body{
   height: 100px;
   text-align: center;
   line-height: 100px;
-  background-color: red;
+}
+img {
+  width: 95%;
+}
+img:hover {
+  opacity: .8;
+  cursor: pointer;
 }
 .email2,.telephone2,.direction2{
   width: 100px;
